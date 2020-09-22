@@ -18,8 +18,8 @@ class Solution {
             val currentLine = temp[it - 1]
             if (currentLine.isEmpty()) return@forEach
             val current = currentLine.last()
+            println("index : $it = $temp - $current / basket : $basket")
             temp[it - 1].removeAt(currentLine.size - 1)
-            println(current)
             if (basket.isNotEmpty()) {
                 val last = basket.last()
                 if (last == current) {
