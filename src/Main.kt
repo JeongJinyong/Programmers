@@ -1,11 +1,13 @@
-import two_thousand_sixteen.Solution
+import get_the_middle_character.Solution
 
 class Main {
     companion object {
         @JvmStatic
         fun main(args: Array<String>) {
             val solution = Solution()
-            solution.solution(5,24)
+            println(solution.solution("abcdefghijklmnopqrstuvwxyz"))
+            println(solution.solution("abcde"))
+            println(solution.solution("qwer"))
         }
     }
 }
