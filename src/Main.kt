@@ -6,6 +6,8 @@ class Main {
         fun main(args: Array<String>) {
             val solution = Solution()
             println(solution.solution("123456"))
+            val asd = "123"
+            asd.length
         }
     }
 }
