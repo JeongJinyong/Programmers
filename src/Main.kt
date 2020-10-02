@@ -1,11 +1,11 @@
-import create_weird_characters.Solution
+import add_digits.Solution
 
 class Main {
     companion object {
         @JvmStatic
         fun main(args: Array<String>) {
             val solution = Solution()
-            println(solution.solution("try hello world"))
+            println(solution.solution(123))
         }
     }
 }
